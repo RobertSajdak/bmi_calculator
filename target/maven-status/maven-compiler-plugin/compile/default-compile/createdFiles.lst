@@ -1,0 +1,6 @@
+pl\kodu\akademia\repositories\BmiRepository.class
+pl\kodu\akademia\services\BmiService.class
+pl\kodu\akademia\command\BmiResults.class
+pl\kodu\akademia\command\FormCommand.class
+pl\kodu\akademia\App.class
+pl\kodu\akademia\controllers\MyFirstController.class

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="results.css">
+</head>
+<body>
+<div id="header">Wyliczenie Twojego wskaźnika BMI:</div>
+
+<div id="weight">
+    <p th:text="'Waga:'+' '+${result.getWeight()}+' kg'"/>
+</div>
+
+<div id="height">
+    <p th:text="'Wzrost:'+' '+${result.getHeight()}+' cm'"/>
+</div>
+
+<div id="bmi">
+    <p th:text="${result.getBmi()}"/>
+</div>
+
+<div id="id">
+    <p th:text="'ID:'+' '+${result.getId()}"/>
+</div>
+
+</body>
+</html>

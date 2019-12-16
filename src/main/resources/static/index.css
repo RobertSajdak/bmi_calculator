@@ -1,0 +1,39 @@
+body {
+  background: url("https://image.freepik.com/darmowe-zdjecie/kobiety-i-mezczyzna-cwiczy-przy-gym_23-2148284969.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#menu {
+position: absolute;
+top: 80px;
+left: 10px;
+width: 200px;
+height: 320px;
+border: 2px solid gray;
+background-color: #ffffff;
+line-height: 40px;
+}
+
+.menu-button {
+display: block;
+text-align: left;
+height: 40px;
+width: 100px;
+border: 2px solid gray;
+border-radius: 10px;
+margin: 1px;
+font-size: 60px;
+text-decoration: none;
+color: black;
+}
+
+#header {
+text-align: center;
+font-size: 50px;
+font-family: Arial;
+color: maroon;
+font-weight: bolder;
+}

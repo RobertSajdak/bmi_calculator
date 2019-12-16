@@ -1,0 +1,43 @@
+body {
+  background: url("https://androidforums.com/attachments/promo_en-png.141977/") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#header {
+text-align: center;
+font-size: 50px;
+font-weight: bolder;
+font-family: Arial;
+}
+
+#weight {
+text-align: center;
+font-size: 40px;
+font-family: Arial;
+}
+
+#height {
+text-align: center;
+font-size: 40px;
+font-family: Arial;
+}
+
+#bmi {
+text-align: center;
+font-size: 70px;
+font-weight: bolder;
+font-family: Arial;
+color: blue;
+margin-top: 130px;
+}
+
+#id {
+text-align: center;
+font-size: 30px;
+font-family: Arial;
+color: red;
+margin-top: 0px;
+}
