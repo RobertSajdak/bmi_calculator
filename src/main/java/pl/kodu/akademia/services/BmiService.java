@@ -15,25 +15,15 @@ public class BmiService {
     }
 
     public String add(BmiResults bmi) {
-        String id = generateId();
-        while (repository.checkIfExists(id)) {
-            id = generateId();
-        }
-        repository.add(id, bmi);
-        return id;
-    }
-
-    private String generateId() {
-        Random random = new Random();
-        int generatedNumber = random.nextInt(100000);
-        return String.valueOf(generatedNumber);
+        BmiResults saved = repository.save(bmi);
+        return saved.getId();
     }
 
     public BmiResults find(String id) {
-        return repository.find(id);
+        return repository.findById(id).orElseThrow(() -> new IllegalArgumentException("Wrong id"));
     }
 
     public boolean checkIfExists(String id) {
-        return repository.checkIfExists(id);
+        return repository.existsById(id);
     }
 }
