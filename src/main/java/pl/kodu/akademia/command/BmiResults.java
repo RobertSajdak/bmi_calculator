@@ -1,17 +1,11 @@
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+package pl.kodu.akademia.command;
 
-@Entity
 public class BmiResults {
 
     private int weight;
     private int height;
     private double bmi;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 
     public BmiResults() {
